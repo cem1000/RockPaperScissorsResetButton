@@ -1,0 +1,2 @@
+website: https://cem1000.github.io/RockPapersSissors/
+github repo: https://github.com/cem1000/RockPapersSissors
