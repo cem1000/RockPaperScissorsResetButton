@@ -1,6 +1,6 @@
-let gamesPlayed = 0;
-let playerWins = 0;
-let isGameRunning = true;
+var gamesPlayed = 0;
+var playerWins = 0;
+var isGameRunning = true;
 
 function showChoices() {
     document.getElementById('choices').style.display = 'flex';
@@ -45,7 +45,7 @@ function playGame(playerChoice) {
 
 function determineWinner(playerChoice, computerChoice) {
     const resultElement = document.getElementById('result');
-    let resultMessage;
+    var resultMessage;
 
     if (playerChoice === computerChoice) {
         resultMessage = `Game ${gamesPlayed + 1}: It's a tie!`;
